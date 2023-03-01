@@ -1,0 +1,146 @@
+/*
+global css
+*/
+@font-face {
+    font-family: 'neon';
+    src: url('./font/NotoSansKR-Light.otf') format('truetype');
+}
+
+body{
+	margin-top: 100px;
+	font-family: 'Trebuchet MS', serif;
+	line-height: 1.6;
+	font-family : 'neon';
+}
+
+
+/*
+header css
+*/
+.header{
+	padding-bottom: 10px;
+}
+
+.header .header-inner{
+	display: flex;
+	justify-content: center;
+}
+
+.main-logo{
+	width : 300px;
+}
+
+
+/*
+footer css
+*/
+.footer{
+	padding: 63px 0 32px;
+}	
+
+
+
+
+
+/* 로그인 Tab-Box 전체크기 */
+.container{
+	width: 460px;
+	height: 310px;
+	margin: 0 auto;
+}
+
+/*
+로그인 Tab 버튼
+*/
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	height: 48px;
+	width: 460px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.tab-btn{
+	width: 200px;
+	height: 48px;
+}
+
+ul.tabs li{
+  	border: 1px solid #c6c6c6;
+  	border-top-right-radius:6px;
+ 	border-top-left-radius:6px;
+  	background-color: #fff;
+	padding: 10px 15px;
+	cursor: pointer;
+	text-align: center;
+}
+ul.tabs li.current{
+	background: #fff;
+	color: #222;
+  	border-bottom:0;
+}
+.tab-img{
+	height: 15px;
+	width: 15px;
+}
+
+
+
+
+
+/*
+로그인 Tab content
+*/
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+  	border: 1px solid #c6c6c6;
+  	border-top:0;
+  	border-bottom-right-radius:6px;
+  	border-bottom-left-radius:6px;
+  	background-color: #fff;
+  	box-shadow: 0 5px 8px 0 rgb(68 68 68 / 4%);
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+.id-pw-input{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	align-items: center;
+}
+
+.id-input{
+	width: 400px;
+	height: 40px;
+}
+
+.pw-input{
+	width: 400px;
+	height: 40px;
+}
+
+.login-button{
+	margin-top: 20px;
+	width: 400px;
+	height: 40px;
+}
+
+.keep-wrapper{
+	display: flex;
+	height: 12px;
+	margin-top: 5px;
+	font-size: 14px;
+	justify-items: left;
+}
+
+.keep{
+	
+}

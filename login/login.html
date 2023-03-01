@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>tab</title>
+</head>
+<body>
+    <div class = "header">
+        <div class = "header-inner">
+            <img src="./img/hotel_logo.png" class="main-logo" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <ul class="tabs">
+            <div class="tab-btn">
+                <li class="tab-link current" data-tab="tab-1">
+                    <img src="./img/exit.png"  class="tab-img" alt=""> ID 로그인
+                </li>
+            </div>
+            <div class="tab-btn">
+                <li class="tab-link" data-tab="tab-2">
+                    <img src="./img/square-1.png" class="tab-img" alt="">일회용 번호
+                </li>
+            </div>
+            <div class="tab-btn">
+                <li class="tab-link" data-tab="tab-3">
+                    <img src="./img/qrcode.png" class="tab-img" alt=""> QR 코드
+                </li>
+            </div>
+        </ul>
+        
+        <div class = contents>
+            <div id="tab-1" class="tab-content current">
+                <div class="id-pw-input">
+                    <input class="id-input" type="text" value="아이디">
+                    <input class="pw-input" type="text" value="비밀번호">
+                    <div class="keep-wrapper">
+                        <input class="keep" type="checkbox"> 로그인 유지
+                    </div>
+                    <button class="login-button">로그인</button>
+                </div>
+            </div>
+            <div id="tab-2" class="tab-content"><p>tab2입니다.</p></div>
+            <div id="tab-3" class="tab-content"><p>tab3입니다.</p></div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
